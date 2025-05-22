@@ -1,0 +1,45 @@
+img{
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+}
+body{
+    background-color: antiquewhite;
+
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.card{
+    background-color: rgb(28, 130, 105);
+    border: 1px solid gainsboro;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    width: 400px;
+    height: 400px;
+}
+
+.card-img-top {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+
+.Purchase-button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: 30px;
+    border-radius: 5px;
+    background-color: aquamarine;
+}
+
+h5.card-title{
+    font-size: 15px;
+}
